@@ -1,0 +1,30 @@
+/* ── 法律页（服务条款 / 隐私政策）通用样式 ─────────────────── */
+.legal{background:#fff;color:var(--ink);min-height:100vh}
+.legal-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid var(--line);
+  box-shadow:0 10px 30px -18px #102c544d}
+.legal-nav-in{display:flex;align-items:center;height:56px;gap:16px}
+.legal-back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--dim);text-decoration:none;transition:color .2s}
+.legal-back:hover{color:var(--blue)}
+.legal-title{font-size:15px;font-weight:600;color:var(--ink);margin-left:auto}
+.legal-body{max-width:780px;margin:0 auto;padding:48px 24px 80px}
+/* globals.css 的 section{padding:96px 0} 是首页分区用的，会漏进法律页
+   每个条款的 <section>，条款之间凭空多出近 200px；这里归零，
+   条款间距只由 h2 的 margin-top 控制 */
+.legal-body section{padding:0;margin:0}
+.legal-body h1{font-size:28px;font-weight:700;margin:0 0 8px;color:var(--ink)}
+.legal-body .legal-updated{font-size:13px;color:var(--dim);margin:0 0 40px}
+.legal-body h2{font-size:20px;font-weight:700;margin:36px 0 12px;color:var(--ink);padding-top:8px}
+.legal-body h3{font-size:16px;font-weight:600;margin:24px 0 8px;color:var(--ink-2)}
+.legal-body p{font-size:15px;line-height:1.75;color:#3a4a60;margin:0 0 14px}
+.legal-body ul,.legal-body ol{margin:0 0 14px;padding-left:22px}
+.legal-body li{font-size:15px;line-height:1.75;color:#3a4a60;margin-bottom:6px}
+.legal-body strong{color:var(--ink);font-weight:600}
+.legal-body a{color:var(--blue);text-decoration:none}
+.legal-body a:hover{text-decoration:underline}
+.legal-footer{border-top:1px solid var(--line);padding:24px;text-align:center;font-size:13px;color:var(--dim)}
+@media (max-width:640px){
+  .legal-body{padding:32px 16px 60px}
+  .legal-body h1{font-size:24px}
+  .legal-body h2{font-size:18px}
+}

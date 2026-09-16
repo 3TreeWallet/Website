@@ -1,0 +1,31 @@
+# 3Tree.xyz robots.txt
+# 允许所有搜索引擎抓取，但禁止 AI 训练用途
+
+User-agent: *
+Allow: /
+Disallow: /download/
+
+# 禁止 AI 训练爬虫
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Sitemap
+Sitemap: https://3tree.xyz/sitemap.xml

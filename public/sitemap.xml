@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://3tree.xyz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3tree.xyz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://3tree.xyz/?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3tree.xyz/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/docs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3tree.xyz/docs"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://3tree.xyz/docs?lang=zh"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://help.3tree.xyz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://help.3tree.xyz/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://help.3tree.xyz/?lang=zh"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/campaign/arc-pad/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/campaign/bsc-rising/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/campaign/dgrid/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/campaign/easy-residency/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://3tree.xyz/campaign/nft-hot/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
